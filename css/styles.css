@@ -8337,32 +8337,79 @@ body {
       font-size: 2.4rem; } }
 
 .text-lvl-secondary {
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+  font-weight: 700; }
 
 .text-lvl-tertiary {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  font-weight: 700; }
 
 .para {
   font-size: 1.4rem;
   line-height: 2.2; }
 
 .text-shows {
-  font-size: 4.8px; }
+  font-size: 4.8rem;
+  font-weight: 800; }
   @media (max-width: 767.98px) {
     .text-shows {
       font-size: 3.6rem; } }
+
+.button {
+  display: block;
+  background: -webkit-gradient(linear, left top, right top, from(#cc1573), to(#5722a9));
+  background: -webkit-linear-gradient(left, #cc1573, #5722a9);
+  background: -o-linear-gradient(left, #cc1573, #5722a9);
+  background: linear-gradient(to right, #cc1573, #5722a9);
+  font-size: 1.4rem; }
+  .button:link, .button:visited {
+    text-decoration: none;
+    color: #fff; }
+  .button:hover, .button:focus {
+    text-decoration: none;
+    color: #fff; }
+  .button--lg {
+    padding: 1rem; }
 
 .section-heading {
   padding: 1rem; }
 
 .section-bio {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(21, 4, 48, 0.89))), url(../img/bg-img/bg-4.jpg);
-  background: -webkit-linear-gradient(rgba(21, 4, 48, 0.89) 10%), url(../img/bg-img/bg-4.jpg);
-  background: -o-linear-gradient(rgba(21, 4, 48, 0.89) 10%), url(../img/bg-img/bg-4.jpg);
-  background: linear-gradient(rgba(21, 4, 48, 0.89) 10%), url(../img/bg-img/bg-4.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(21, 4, 48, 0.89))), url(../img/bg-img/bg-4.jpg);
+  background: -webkit-linear-gradient(rgba(21, 4, 48, 0.89)), url(../img/bg-img/bg-4.jpg);
+  background: -o-linear-gradient(rgba(21, 4, 48, 0.89)), url(../img/bg-img/bg-4.jpg);
+  background: linear-gradient(rgba(21, 4, 48, 0.89)), url(../img/bg-img/bg-4.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
   padding: 10rem 0; }
   .section-bio__container {
     padding-top: 5rem; }
+
+.section-shows {
+  background: #150430;
+  padding: 10rem 0; }
+  .section-shows__container {
+    padding-top: 5rem; }
+
+.shows-card {
+  padding: 2rem 0; }
+  .shows-card:not(:last-child) {
+    border-bottom: 1px solid #fff; }
+
+.section-music {
+  padding: 10rem 0; }
+
+.music-card__img-container {
+  position: relative;
+  overflow: hidden; }
+
+.music-card__img {
+  -webkit-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease; }
+
+.music-card__img-container:hover .music-card__img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2); }

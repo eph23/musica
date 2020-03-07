@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    background: linear-gradient(to right, #cc1573, #5722a9);
+    font-size: 1.4rem;
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+    &--lg {
+        padding: 1rem;
+    }
+}

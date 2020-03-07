@@ -1,5 +1,5 @@
 .section-bio {
-    background: linear-gradient($primary 10%),
+    background: linear-gradient($gradient),
         url(../img/bg-img/bg-4.jpg);
     height: 100%;
     background-position: center;
@@ -9,4 +9,45 @@
     &__container {
         padding-top: 5rem;
     }
+}
+
+.section-shows {
+    background: $primary;
+    padding: 10rem 0;
+
+    &__container {
+        padding-top: 5rem;
+    }
+
+}
+
+.shows-card {
+    padding: 2rem 0;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid #fff;
+
+    }
+
+}
+
+.section-music {
+    padding: 10rem 0;
+}
+
+.music-card {
+    &__img-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__img {
+        transition: all .4s ease;
+    }
+
+    &__img-container:hover &__img {
+        transform: scale(1.2);
+    }
+
+
 }
