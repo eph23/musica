@@ -1,0 +1,12 @@
+.section-bio {
+    background: linear-gradient($primary 10%),
+        url(../img/bg-img/bg-4.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0;
+
+    &__container {
+        padding-top: 5rem;
+    }
+}
