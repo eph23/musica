@@ -2,7 +2,9 @@
     display: block;
     background: linear-gradient(to right, #cc1573, #5722a9);
     font-size: 1.4rem;
+    font-weight: 700;
 
+    &,
     &:link,
     &:visited {
         text-decoration: none;
@@ -10,7 +12,7 @@
     }
 
     &:hover,
-    &:focus {
+    &:active {
         text-decoration: none;
         color: #fff;
     }
@@ -18,5 +20,17 @@
 
     &--lg {
         padding: 1rem;
+        transition: all .3s ease;
+
+        &:hover,
+        &:active {
+            box-shadow: 0rem 0rem 2rem rgba(255, 255, 255, 0.30);
+        }
+    }
+
+    &--submit {
+        padding: 1.5rem 2rem;
+        text-transform: uppercase;
+        border: none;
     }
 }

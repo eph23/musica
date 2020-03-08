@@ -1,0 +1,42 @@
+.section-footer {
+    padding: 10rem 0;
+}
+
+.footer {
+
+    &__text-container {
+        padding: 1rem 0;
+    }
+
+
+}
+
+.footer {
+    &__nav-list {
+        list-style: none;
+    }
+
+    &__nav-item {
+        margin: 1rem 0;
+    }
+
+    &__nav-link {
+        font-size: 1.6rem;
+        font-weight: 600;
+        transition: all .3s ease;
+
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: $gray-600;
+        }
+
+        &:hover,
+        &:active {
+            text-decoration: none;
+            color: #cc1573;
+        }
+    }
+
+}
